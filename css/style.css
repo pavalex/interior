@@ -20,7 +20,6 @@ body {
     background: #000 url(../images/slider.jpg) center center no-repeat;
 }
 
-
 /*----------Шапка сайта----------*/
 
 .header__logo {
@@ -130,9 +129,32 @@ body {
 }
 
 .order:hover {
-   background-color: #f5f9f4; 
+    background-color: #f5f9f4;
 }
 
 .arrow {
     margin-left: 25px;
+}
+
+/*----------Featured New----------*/
+.featured {
+    height: 683px;
+    background-color: #ffffff;
+}
+
+/*----------Exclusive----------*/
+.exclusive {
+    display: flex;
+}
+
+.exclusive__left {
+    height: 683px;
+    width: 50%;
+    background: #e9eaec url(../images/promo-left.jpg) center center no-repeat;
+}
+
+.exclusive__right {
+    height: 683px;
+    width: 50%;
+    background: #f7f7f7 url(../images/promo-right.jpg) center center no-repeat;
 }
