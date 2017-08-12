@@ -12,7 +12,7 @@
 
 <body>
 <div class="container">
-    <div class="wrapper">
+    <div class="wrapper clearfix">
         <header class="header">
             <img class="header__logo" src="images/logo.png" alt="logo">
             <nav class="menu">
@@ -35,30 +35,80 @@
                 <br>available in matt powder-coated black</p>
         </div>
         <a class="order" href="#">Order us<img class="arrow" src="images/arrow.png" alt="arrow"></a>
+        <div class="slider__nav"><img src="images/nav.png" alt="nav"></div>
     </div>
+
     <section class="featured clearfix">
-        <div class="featured__menu">
-            <ul class="menu__list">
-                <li><a href="#" class="featured__link">Featured</a></li>
-                <li><a href="#" class="featured__link">New</a></li>
+        <div class="clearfix">
+            <ul class="featured__menu">
+                <li><a href="#" class="featured__menu_link featured__menu_link--active">Featured</a></li>
+                <li><a href="#" class="featured__menu_link ">New</a></li>
             </ul>
-            <a class="featured__expl" href="#">Explore all<img class="arrow" src="images/arrow.png" alt="arrow"></a>
+            <div class="featured__expl">
+                <a href="#">Explore all<img class="featured__arrow" src="images/arrow.png" alt="arrow"></a>
+            </div>
         </div>
         <div class="featured__product">
-            <img src="images/product-1.jpg" alt="product">
-            <img src="images/product-2.jpg" alt="product">
-            <img src="images/product-3.jpg" alt="product">
-            <img src="images/product-4.jpg" alt="product">
+            <div class="featured__img">
+                <img src="images/product-1.jpg" alt="product">
+                <div class="featured__more">
+                    <img src="images/back-arrow.png" alt="arrow">
+                    <h3>Fishnet Chair</h3>
+                    <p>Seat and back with upholstery <br>
+                        made of cold cure foam
+                    </p>
+                </div>
+            </div>
+            <div class="featured__img">
+                <img src="images/product-2.jpg" alt="product">
+                <div class="featured__more">
+                    <img src="images/back-arrow.png" alt="arrow">
+                    <h3>Fishnet Chair</h3>
+                    <p>Seat and back with upholstery <br>
+                        made of cold cure foam
+                    </p>
+                </div>
+            </div>
+            <div class="featured__img">
+                <img src="images/product-3.jpg" alt="product">
+                <div class="featured__more">
+                    <img src="images/back-arrow.png" alt="arrow">
+                    <h3>Fishnet Chair</h3>
+                    <p>Seat and back with upholstery <br>
+                        made of cold cure foam
+                    </p>
+                </div>
+            </div>
+            <div class="featured__img">
+                <img src="images/product-4.jpg" alt="product">
+                <div class="featured__more">
+                    <img src="images/back-arrow.png" alt="arrow">
+                    <h3>Fishnet Chair</h3>
+                    <p>Seat and back with upholstery <br>
+                        made of cold cure foam
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
+
     <section class="exclusive clearfix">
         <div class="exclusive__left">
-
+            <p class="exclusive__txt">exclusive</p>
+            <h2 class="exclusive__title">Fishnet Chair</h2>
+            <p class="exclusive__desc">Seat and back with upholstery made of cold cure foam. <br>
+                Steel frame, available in matt</p>
+            <a class="order order-pos" href="#">Order us<img class="arrow" src="images/arrow.png" alt="arrow"></a>
         </div>
         <div class="exclusive__right">
-
+            <p class="exclusive__txt">exclusive</p>
+            <h2 class="exclusive__title">Fishnet Chair</h2>
+            <p class="exclusive__desc">Seat and back with upholstery made of cold cure foam. <br>
+                Steel frame, available in matt</p>
+            <a class="order order-pos" href="#">Order us<img class="arrow" src="images/arrow.png" alt="arrow"></a>
         </div>
     </section>
+
 </div>
 <script src="js/scripts.js"></script>
 </body>
